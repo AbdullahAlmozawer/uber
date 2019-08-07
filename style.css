@@ -129,16 +129,52 @@ width: 100%;
 }
 .view-section {
   margin: 0 5rem;
+  position: relative;
 
 
+}
+.view-section-content {
+  position: absolute;
+  top:0px;
+  left:11%;
+  padding-top: 4rem;
 }
 .view-section-img img {
   width: 100%;
 }
 .heading1-view-section {
+  font-family: 'Abril Fatface', cursive;
+  line-height: 60px;
+  font-weight: 399;
+  font-size: 52px;
+   
+}
+.span-view-section {
+padding-top: 1.3rem;
+margin: 0.2rem;
+  
+}
+.video-section {
+  margin: 0 5rem;
 
 }
 .span-view-section a {
   color: blue;
-  font-size: 
+  font-size: 20px;
+
+}
+.video-section-video video {
+  width: 100%;  
+}
+.span-video a {
+  color: #276EF1;
+  font-size: 20px;
+
+}
+.heading2-video {
+  font-family: 'Abril Fatface', cursive;
+  line-height: 30px;
+  font-weight: 399;
+  font-size: 30px;
+
 }
