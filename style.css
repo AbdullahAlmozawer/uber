@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css?family=Heebo&display=swap');
+html {
+  box-sizing: border-box;
+}
+*,
+*::before,
+::after {
+  box-sizing: inherit;
+}
+* {
+  margin: 0 ;
+  padding: 0;
+}
+.nav-bar {
+  background-color: black;
+height: 60px;
+display: flex;
+justify-content:space-evenly;
+align-items: center;
+margin: auto;
+
+
+
+}
+.right-side ul{
+display:flex;
+text-decoration:none;
+}
+.right-side li {
+  margin: 1.5rem;
+  font-size: 0.90rem; 
+}
+.left-side ul {
+  display: flex
+}
+.left-side li {
+  margin: 1.5rem;
+  font-weight: 400;
+  font-size: 1rem;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+.btn {
+  background-color:#276EF1;
+  color: white;
+  border-radius: 50px 17rem 50px 60px;
+  padding: 10px;
+}
+main {
+  margin:0 5rem;
+
+  
+  
+}
+/* .main-section {
+ display: grid;
+  grid-template-columns: 1fr ;
+  grid-template-rows: 2fr 1fr 1fr 1fr ;
+  grid-gap: 1rem;
+} */
+.assest-logo {
+  display: grid;
+  justify-items: center;
+  line-height:2rem;
+  font-family: 'Heebo', sans-serif;  
+}
+.main-section {
+padding-top: 5rem;
+ 
+}
+.assest {
+  display:flex;
+  justify-content: space-evenly;
+  align-items: center;
+  
+}
+.assest-2 {
+  line-height: 55px;
+  margin: 5rem;
+  
+}
+.heading1-assest-2 {
+  font-family: 'Abril Fatface', cursive;
+  line-height: 60px;
+  font-weight: 399;
+  font-size: 52px; 
+}
+.p-assest-2 {
+  font-size: 23px;
+  font-family: 'Alegreya', serif;
+}
+.span-assest-2 a {
+  color: blue;
+  font-size: 20px;
+}
