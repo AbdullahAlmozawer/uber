@@ -8,7 +8,7 @@ html {
   box-sizing: inherit;
 }
 * {
-  margin: 0 ;
+  margin: 0;
   padding: 0;
 }
 .nav-bar {
@@ -50,6 +50,7 @@ a {
 }
 main {
   margin:0 5rem;
+position: relative;  
 
   
   
@@ -64,21 +65,36 @@ main {
   display: grid;
   justify-items: center;
   line-height:2rem;
-  font-family: 'Heebo', sans-serif;  
+  font-family: 'Heebo', sans-serif;
+  margin: 0 1.8rem;
+  font-size: 1.2rem;
+
 }
 .main-section {
-padding-top: 5rem;
+  padding-top: 4rem;
+
+position: absolute;
+top: 0px;
+left:11%;
  
 }
 .assest {
   display:flex;
   justify-content: space-evenly;
   align-items: center;
+  background-color: white;
+  padding: 20px;
   
+
+ 
 }
 .assest-2 {
-  line-height: 55px;
-  margin: 5rem;
+  line-height: 2.5em;
+  padding-top: 80px;
+  background-color: white;
+  display: inline-block;
+  
+  
   
 }
 .heading1-assest-2 {
@@ -86,12 +102,43 @@ padding-top: 5rem;
   line-height: 60px;
   font-weight: 399;
   font-size: 52px; 
+  margin: 2rem;
 }
 .p-assest-2 {
   font-size: 23px;
+  margin: 1rem 0;
   font-family: 'Alegreya', serif;
+  width: 400px;
+  line-height: 1.1em;
+  margin: 2rem;
+}
+.btn-assest-2 {
+  margin: 2rem;
 }
 .span-assest-2 a {
   color: blue;
   font-size: 20px;
+  margin: 2rem;
+}
+.main-img {
+
+}
+.main-img img{
+width: 100%;
+
+}
+.view-section {
+  margin: 0 5rem;
+
+
+}
+.view-section-img img {
+  width: 100%;
+}
+.heading1-view-section {
+
+}
+.span-view-section a {
+  color: blue;
+  font-size: 
 }
