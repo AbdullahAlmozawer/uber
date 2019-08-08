@@ -156,12 +156,17 @@ margin: 0.2rem;
 }
 .video-section {
   margin: 0 5rem;
-
+  position: relative;
+}
+.video-section-content {
+  position: absolute;
+  top:80%;
+  left:11%;
+  line-height: 2rem;
 }
 .span-view-section a {
   color: blue;
   font-size: 20px;
-
 }
 .video-section-video video {
   width: 100%;  
@@ -169,12 +174,53 @@ margin: 0.2rem;
 .span-video a {
   color: #276EF1;
   font-size: 20px;
-
+  color: white;
 }
 .heading2-video {
   font-family: 'Abril Fatface', cursive;
   line-height: 30px;
   font-weight: 399;
-  font-size: 30px;
+  font-size: 25px;
+  color: white;
+}
+.video-btn {
+color: white;
+font-size: 20px;
+padding-top: 0.5rem;
+}
+.security {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 100vh;
+}
+
+.heading2-security {
+  font-family: 'Abril Fatface', cursive;
+  line-height: 40px;
+  font-weight: 399;
+  font-size: 40px;
+
+}
+.p-security {
+  font-size: 23px;
+  font-family: 'Alegreya', serif;
+  margin: 1.8rem 0;
+  width: 400px;
+
+}
+.span-security a {
+  color: blue;
+  font-size: 20px;
+
+}
+.img-security img {
+  width: 100%;  
+}
+.news {
+  margin: 0 5rem;
+  display: flex;
+  justify-content:center;
+  align-items: center;
 
 }
