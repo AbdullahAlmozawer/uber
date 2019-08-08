@@ -1,0 +1,257 @@
+
+.nav-bar {
+  background-color: black;
+display: inline;
+
+
+}
+.right-side ul{
+  display: grid;
+  grid-template-columns:1fr 1fr 1fr;
+  
+  text-decoration: none;
+
+}
+.right-side li {
+  font-size: 0.90rem; 
+  list-style: none;
+}
+.left-side ul {
+display: grid;
+grid-template-columns:1fr 1fr;
+
+}
+.left-side li {
+  font-weight: 400;
+  font-size: 0.5;
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  color:blue;
+}
+.btn {
+  background-color:#276EF1;
+  color: white;
+  border-radius: 50px 17rem 50px 60px;
+  
+  
+}
+main {
+    
+  display: inline;
+}
+
+.assest-logo {
+
+  line-height:2rem;
+  font-family: 'Heebo', sans-serif;
+  font-size: 1rem;
+
+}
+.main-section {
+display: grid;
+grid-template-columns: 1fr;
+grid-template-rows:1fr;
+}
+.assest {
+  display: grid; 
+  background-color: white;
+  padding: 20px;
+  
+
+ 
+}
+.assest-2 {
+  line-height: 0.2rem;
+  background-color: white;
+  
+  
+  
+}
+.heading1-assest-2 {
+  font-family: 'Abril Fatface', cursive;
+  line-height: 2rem;
+  font-weight: 399;
+  font-size: 2rem; 
+  
+
+
+}
+.p-assest-2 {
+  font-size: 1rem;
+  font-family: 'Alegreya', serif;
+
+  line-height: 1rem;
+
+  
+}
+.btn-assest-2 {
+
+}
+.span-assest-2 a {
+  color: blue;
+  font-size: 1px;
+
+}
+.main-img {
+
+}
+.main-img img{
+width: 100%;
+
+}
+.view-section {
+  display: inline;
+
+
+}
+.view-section-content {
+display:
+}
+.view-section-img img {
+  width: 100;
+}
+.heading1-view-section {
+  font-family: 'Abril Fatface', cursive;
+  line-height: 30px;
+  font-weight: 399;
+  font-size: 30px;
+   
+}
+.span-view-section {
+
+  
+}
+.video-section {
+display:inline;
+}
+.video-section-content {
+
+  line-height: 1rem;
+}
+.span-view-section a {
+  color: blue;
+  font-size: 20px;
+}
+.video-section-video video {
+  width: 100%;  
+}
+.span-video a {
+  color: #276EF1;
+  font-size: 20px;
+  color: white;
+}
+.heading2-video {
+  font-family: 'Abril Fatface', cursive;
+  line-height: 20px;
+  font-weight: 399;
+  font-size: 25px;
+  color: white;
+}
+.video-btn {
+color: white;
+font-size: 20px;
+}
+.security {
+  display:grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr;
+
+
+}
+
+.heading2-security {
+  font-family: 'Abril Fatface', cursive;
+  line-height: 40px;
+  font-weight:1rem;
+  font-size: 40px;
+  
+
+}
+.p-security {
+  font-size: 23px;
+  font-family: 'Alegreya', serif;
+
+}
+.span-security a {
+  color: blue;
+  font-size: 20px;
+
+}
+.img-security img {
+  width: 70%; 
+   
+}
+.news {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+}
+.news-room {
+
+}
+.news-h3 {
+  font-family: 'Courgette', cursive;
+  font-size: 1.3rem;
+
+}
+.news-p {
+  font-family: 'Didact Gothic', sans-serif;
+  font-size:1.2rem;
+  
+}
+.news-span a {
+  color: blue;
+  font-size: 1rem;
+}
+.sign-up {
+display: inline;
+margin: 0.7rem;
+
+
+}
+.partner-content {
+  display: inline;
+}
+.passenger-content {
+  display: inline;
+
+ 
+}
+.heading2-sign1 {
+  font-family: 'Special Elite', cursive;
+  font-size: 0.9rem;
+  
+
+}
+.btn-sign1 {
+font-size: 0.9rem;
+
+}
+.heading2-sign2 {
+  font-family: 'Special Elite', cursive;
+  font-size: 0.9rem;
+}
+.btn-sign2 {
+font-size: 0.9rem;
+}
+
+.uber {
+  background-color: rgb(26, 24, 24);
+  
+}
+.store-img img {
+
+
+}
+.container {
+  display: grid;
+  grid-template-columns:1fr; 
+  line-height: 1.8em;
+
+}
+.container li {
+  font-size: 1.1em;
+  list-style: none;
+}
